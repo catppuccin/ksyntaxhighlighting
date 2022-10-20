@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://github.com/catppuccin/template">KSyntaxHighlitghting</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -15,18 +15,27 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/sample.png"/>
 </p>
 
+
+# Notes for development:
+- Theme is not consistent with other IDEs. It was done by matching the breeze colours to the closest ctp colour It is a proof of concept I can improve on for now.
+- Some languages have their own syntax for certain types of words. For example: Alertsin C based languages. These need to be configured and can be done so from within the text editor.
 ## Usage
 
 1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+2. Open the text editor/IDE using KSyntaxHighlitghting (Usually Kate or Kwrite)
+3. Go to Settings ---> Configure editor ---> Color Themes
+4. Select `Import Theme` and choose the flavour of your choice.
+5. Set the theme as default colours.
 
-## 🙋 FAQ (optional)
 
--	Q: **_"Where can I find the doc?"_**
-	A: Run `:help theme`
 
+## 🙋 FAQ
+
+1. A language I use has colours that don't fit in.
+   A: These colours can be configured. Feel free to make an issue or fix the colors and contribute upstream.
+2. Where do I find documentation for KSyntaxHighlitghting?
+   A: Documenation available [here](https://docs.kde.org/trunk5/en/kate/katepart/color-themes.html#color-themes-gui)
+   
 ## 💝 Thanks to
 
 - [Human](https://github.com/catppuccin)
