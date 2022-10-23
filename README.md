@@ -17,8 +17,8 @@
 
 
 # Notes for development:
-- Theme is not consistent with other IDEs. It was done by matching the breeze colours to the closest ctp colour It is a proof of concept I can improve on for now.
-- Some languages have their own syntax for certain types of words. For example: Alertsin C based languages. These need to be configured and can be done so from within the text editor.
+- Theme is not consistent with other ports. It was done by matching the breeze colours to the closest ctp colour It is a proof of concept I can improve on for now.
+- Some languages have their own syntax for certain types of words. For example: Alerts in C based languages. These need to be configured and can be done so from within the text editor.
 ## Usage
 
 1. Clone this repository locally
