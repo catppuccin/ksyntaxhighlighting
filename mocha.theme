@@ -113,6 +113,52 @@
                 "text-color": "#fab387"
             }
         },
+        "Ruby": {
+            "Constant": {
+                "selected-text-color": "#89b4fa",
+                "text-color": "#89b4fa"
+            },
+            "Default globals": {
+                "selected-text-color": "#f2cdcd",
+                "text-color": "#f2cdcd"
+            },
+            "Global Constant": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Global Variable": {
+                "selected-text-color": "#f2cdcd",
+                "text-color": "#f2cdcd"
+            },
+            "Here Document": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Instance Variable": {
+                "selected-text-color": "#f2cdcd",
+                "text-color": "#f2cdcd"
+            },
+            "Kernel methods": {
+                "selected-text-color": "#f5c2e7",
+                "text-color": "#f5c2e7"
+            },
+            "Keyword": {
+                "selected-text-color": "#f38ba8",
+                "text-color": "#f38ba8"
+            },
+            "Message": {
+                "selected-text-color": "#cdd6f4",
+                "text-color": "#cdd6f4"
+            },
+            "Raw String": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Regular Expression": {
+                "selected-text-color": "#f5c2e7",
+                "text-color": "#f5c2e7"
+            }
+        },
         "YAML": {
             "Alert": {
                 "background-color": "#f38ba8",
@@ -123,7 +169,7 @@
     },
     "editor-colors": {
         "BackgroundColor": "#1e1e2e",
-        "BracketMatching": "#b4f5e0dc",
+        "BracketMatching": "#26f5e0dc",
         "CodeFolding": "#1a89dceb",
         "CurrentLine": "#313244",
         "CurrentLineNumber": "#cdd6f4",

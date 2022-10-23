@@ -113,6 +113,52 @@
                 "text-color": "#ef9f76"
             }
         },
+        "Ruby": {
+            "Constant": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            },
+            "Default globals": {
+                "selected-text-color": "#eebebe",
+                "text-color": "#eebebe"
+            },
+            "Global Constant": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Global Variable": {
+                "selected-text-color": "#eebebe",
+                "text-color": "#eebebe"
+            },
+            "Here Document": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Instance Variable": {
+                "selected-text-color": "#eebebe",
+                "text-color": "#eebebe"
+            },
+            "Kernel methods": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Keyword": {
+                "selected-text-color": "#e78284",
+                "text-color": "#e78284"
+            },
+            "Message": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Raw String": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Regular Expression": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            }
+        },
         "YAML": {
             "Alert": {
                 "background-color": "#e78284",
@@ -123,7 +169,7 @@
     },
     "editor-colors": {
         "BackgroundColor": "#303446",
-        "BracketMatching": "#b4f5e0dc",
+        "BracketMatching": "#26f5e0dc",
         "CodeFolding": "#1a89dceb",
         "CurrentLine": "#414559",
         "CurrentLineNumber": "#c6d0f5",
@@ -153,7 +199,7 @@
     },
     "metadata": {
         "license": "SPDX-License-Identifier: MIT",
-        "name": "Catppuccin Frappe",
+        "name": "Catppuccin Mocha",
         "revision": 1
     },
     "text-styles": {
