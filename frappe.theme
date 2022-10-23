@@ -76,12 +76,52 @@
                 "text-color": "#a6d189"
             }
         },
+        "Fish": {
+            "Builtin": {
+                "selected-text-color": "#ef9f76",
+                "text-color": "#ef9f76"
+            },
+            "Escape": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Option": {
+                "selected-text-color": "#e78284",
+                "text-color": "#e78284"
+            },
+            "Redirection": {
+                "selected-text-color": "#99d1db",
+                "text-color": "#99d1db"
+            },
+            "Separator": {
+                "selected-text-color": "#81c8be",
+                "text-color": "#81c8be"
+            },
+            "Variable": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            }
+        },
         "JSON": {
             "Style_Seperator_Pair": {
                 "selected-text-color": "#f4b8e4",
                 "text-color": "#f4b8e4"
             },
             "Style_String_Key": {
+                "selected-text-color": "#ef9f76",
+                "text-color": "#ef9f76"
+            }
+        },
+        "Lua": {
+            "Constant": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Keyword": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Special Variable": {
                 "selected-text-color": "#ef9f76",
                 "text-color": "#ef9f76"
             }

@@ -76,12 +76,52 @@
                 "text-color": "#40a02b"
             }
         },
+        "Fish": {
+            "Builtin": {
+                "selected-text-color": "#fe640b",
+                "text-color": "#fe640b"
+            },
+            "Escape": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
+            },
+            "Option": {
+                "selected-text-color": "#d20f39",
+                "text-color": "#d20f39"
+            },
+            "Redirection": {
+                "selected-text-color": "#04a5e5",
+                "text-color": "#04a5e5"
+            },
+            "Separator": {
+                "selected-text-color": "#179299",
+                "text-color": "#179299"
+            },
+            "Variable": {
+                "selected-text-color": "#4c4f69",
+                "text-color": "#4c4f69"
+            }
+        },
         "JSON": {
             "Style_Seperator_Pair": {
                 "selected-text-color": "#ea76cb",
                 "text-color": "#ea76cb"
             },
             "Style_String_Key": {
+                "selected-text-color": "#fe640b",
+                "text-color": "#fe640b"
+            }
+        },
+        "Lua": {
+            "Constant": {
+                "selected-text-color": "#4c4f69",
+                "text-color": "#4c4f69"
+            },
+            "Keyword": {
+                "selected-text-color": "#8839ef",
+                "text-color": "#8839ef"
+            },
+            "Special Variable": {
                 "selected-text-color": "#fe640b",
                 "text-color": "#fe640b"
             }
