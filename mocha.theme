@@ -102,6 +102,20 @@
                 "text-color": "#cdd6f4"
             }
         },
+        "ISO C++": {
+            "Data Type": {
+                "selected-text-color": "#89b4fa",
+                "text-color": "#89b4fa"
+            },
+            "Keyword": {
+                "selected-text-color": "#f9e2af",
+                "text-color": "#f9e2af"
+            },
+            "Type Modifiers": {
+                "selected-text-color": "#f9e2af",
+                "text-color": "#f9e2af"
+            }
+        },
         "JSON": {
             "Style_Seperator_Pair": {
                 "selected-text-color": "#f5c2e7",
@@ -273,6 +287,7 @@
             "text-color": "#7f849c"
         },
         "CommentVar": {
+            "italic": true,
             "selected-text-color": "#7f849c",
             "text-color": "#7f849c"
         },
@@ -338,8 +353,8 @@
             "text-color": "#f38ba8"
         },
         "Others": {
-            "selected-text-color": "#89b4fa",
-            "text-color": "#89b4fa"
+            "selected-text-color": "#fab387",
+            "text-color": "#fab387"
         },
         "Preprocessor": {
             "selected-text-color": "#f5c2e7",

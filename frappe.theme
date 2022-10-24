@@ -102,6 +102,20 @@
                 "text-color": "#c6d0f5"
             }
         },
+        "ISO C++": {
+            "Data Type": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            },
+            "Keyword": {
+                "selected-text-color": "#e5c890",
+                "text-color": "#e5c890"
+            },
+            "Type Modifiers": {
+                "selected-text-color": "#e5c890",
+                "text-color": "#e5c890"
+            }
+        },
         "JSON": {
             "Style_Seperator_Pair": {
                 "selected-text-color": "#f4b8e4",
@@ -239,7 +253,7 @@
     },
     "metadata": {
         "license": "SPDX-License-Identifier: MIT",
-        "name": "Catppuccin Mocha",
+        "name": "Catppuccin Frappe",
         "revision": 1
     },
     "text-styles": {
@@ -273,6 +287,7 @@
             "text-color": "#838ba7"
         },
         "CommentVar": {
+            "italic": true,
             "selected-text-color": "#838ba7",
             "text-color": "#838ba7"
         },
@@ -338,8 +353,8 @@
             "text-color": "#e78284"
         },
         "Others": {
-            "selected-text-color": "#8caaee",
-            "text-color": "#8caaee"
+            "selected-text-color": "#ef9f76",
+            "text-color": "#ef9f76"
         },
         "Preprocessor": {
             "selected-text-color": "#f4b8e4",
