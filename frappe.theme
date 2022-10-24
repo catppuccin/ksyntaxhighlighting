@@ -227,6 +227,40 @@
                 "text-color": "#ef9f76"
             }
         },
+        "Python": {
+            "Comment": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Definition Keyword": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "F-String": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Import": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Operator": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Raw B-String": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Raw F-String": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Raw String": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            }
+        },
         "Ruby": {
             "Constant": {
                 "selected-text-color": "#8caaee",
@@ -273,6 +307,40 @@
                 "text-color": "#f4b8e4"
             }
         },
+        "Rust": {
+            "Attribute": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "CharEscape": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
+            },
+            "Character": {
+                "selected-text-color": "#99d1db",
+                "text-color": "#99d1db"
+            },
+            "Definition": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            },
+            "Keyword": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Self": {
+                "selected-text-color": "#ef9f76",
+                "text-color": "#ef9f76"
+            },
+            "Symbol": {
+                "selected-text-color": "#99d1db",
+                "text-color": "#99d1db"
+            },
+            "Type": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            }
+        },
         "YAML": {
             "Alert": {
                 "background-color": "#e78284",
@@ -313,7 +381,7 @@
     },
     "metadata": {
         "license": "SPDX-License-Identifier: MIT",
-        "name": "Catppuccin Frappe",
+        "name": "Catppuccin Frappé",
         "revision": 1
     },
     "text-styles": {
@@ -335,14 +403,15 @@
             "text-color": "#ef9f76"
         },
         "BuiltIn": {
-            "selected-text-color": "#949cbb",
-            "text-color": "#949cbb"
+            "selected-text-color": "#8caaee",
+            "text-color": "#8caaee"
         },
         "Char": {
             "selected-text-color": "#f4b8e4",
             "text-color": "#f4b8e4"
         },
         "Comment": {
+            "italic": true,
             "selected-text-color": "#838ba7",
             "text-color": "#838ba7"
         },
@@ -358,8 +427,8 @@
         },
         "ControlFlow": {
             "bold": true,
-            "selected-text-color": "#ca9ee6",
-            "text-color": "#ca9ee6"
+            "selected-text-color": "#e78284",
+            "text-color": "#e78284"
         },
         "DataType": {
             "selected-text-color": "#f2d5cf",

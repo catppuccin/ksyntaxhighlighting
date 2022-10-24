@@ -227,6 +227,40 @@
                 "text-color": "#fab387"
             }
         },
+        "Python": {
+            "Comment": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Definition Keyword": {
+                "selected-text-color": "#cba6f7",
+                "text-color": "#cba6f7"
+            },
+            "F-String": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Import": {
+                "selected-text-color": "#f5c2e7",
+                "text-color": "#f5c2e7"
+            },
+            "Operator": {
+                "selected-text-color": "#f5c2e7",
+                "text-color": "#f5c2e7"
+            },
+            "Raw B-String": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Raw F-String": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Raw String": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            }
+        },
         "Ruby": {
             "Constant": {
                 "selected-text-color": "#89b4fa",
@@ -271,6 +305,40 @@
             "Regular Expression": {
                 "selected-text-color": "#f5c2e7",
                 "text-color": "#f5c2e7"
+            }
+        },
+        "Rust": {
+            "Attribute": {
+                "selected-text-color": "#f5c2e7",
+                "text-color": "#f5c2e7"
+            },
+            "CharEscape": {
+                "selected-text-color": "#a6e3a1",
+                "text-color": "#a6e3a1"
+            },
+            "Character": {
+                "selected-text-color": "#89dceb",
+                "text-color": "#89dceb"
+            },
+            "Definition": {
+                "selected-text-color": "#89b4fa",
+                "text-color": "#89b4fa"
+            },
+            "Keyword": {
+                "selected-text-color": "#f5c2e7",
+                "text-color": "#f5c2e7"
+            },
+            "Self": {
+                "selected-text-color": "#fab387",
+                "text-color": "#fab387"
+            },
+            "Symbol": {
+                "selected-text-color": "#89dceb",
+                "text-color": "#89dceb"
+            },
+            "Type": {
+                "selected-text-color": "#89b4fa",
+                "text-color": "#89b4fa"
             }
         },
         "YAML": {
@@ -335,14 +403,15 @@
             "text-color": "#fab387"
         },
         "BuiltIn": {
-            "selected-text-color": "#9399b2",
-            "text-color": "#9399b2"
+            "selected-text-color": "#89b4fa",
+            "text-color": "#89b4fa"
         },
         "Char": {
             "selected-text-color": "#f5c2e7",
             "text-color": "#f5c2e7"
         },
         "Comment": {
+            "italic": true,
             "selected-text-color": "#7f849c",
             "text-color": "#7f849c"
         },
@@ -358,8 +427,8 @@
         },
         "ControlFlow": {
             "bold": true,
-            "selected-text-color": "#cba6f7",
-            "text-color": "#cba6f7"
+            "selected-text-color": "#f38ba8",
+            "text-color": "#f38ba8"
         },
         "DataType": {
             "selected-text-color": "#f5e0dc",
