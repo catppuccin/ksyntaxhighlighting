@@ -54,10 +54,6 @@
                 "selected-text-color": "#ea76cb",
                 "text-color": "#ea76cb"
             },
-            "Property": {
-                "selected-text-color": "#df8e1d",
-                "text-color": "#df8e1d"
-            },
             "Selector Attribute": {
                 "selected-text-color": "#40a02b",
                 "text-color": "#40a02b"
@@ -72,8 +68,25 @@
             }
         },
         "Doxygen": {
-            "Entities": {
+            "Custom Tags": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
+            },
+            "Dot Graph": {
                 "text-color": "#40a02b"
+            },
+            "Entities": {
+                "text-color": "#fe640b"
+            },
+            "Formulas": {
+                "text-color": "#40a02b"
+            },
+            "Message Sequence Chart": {
+                "text-color": "#40a02b"
+            },
+            "Tags": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
             }
         },
         "Fish": {
@@ -124,6 +137,53 @@
             "Style_String_Key": {
                 "selected-text-color": "#fe640b",
                 "text-color": "#fe640b"
+            }
+        },
+        "Java": {
+            "Annotation": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
+            },
+            "Data Type": {
+                "selected-text-color": "#1e66f5",
+                "text-color": "#1e66f5"
+            },
+            "Keyword": {
+                "selected-text-color": "#df8e1d",
+                "text-color": "#df8e1d"
+            }
+        },
+        "JavaScript": {
+            "Function Declaration": {
+                "selected-text-color": "#4c4f69",
+                "text-color": "#4c4f69"
+            },
+            "Function Name": {
+                "selected-text-color": "#4c4f69",
+                "text-color": "#4c4f69"
+            },
+            "Keyword": {
+                "selected-text-color": "#fe640b",
+                "text-color": "#fe640b"
+            },
+            "Pattern Character Class": {
+                "selected-text-color": "#40a02b",
+                "text-color": "#40a02b"
+            },
+            "Pattern Internal Operator": {
+                "selected-text-color": "#40a02b",
+                "text-color": "#40a02b"
+            },
+            "Regular Expression": {
+                "selected-text-color": "#40a02b",
+                "text-color": "#40a02b"
+            },
+            "Reserved": {
+                "italic": false
+            },
+            "Template": {
+                "selected-text-color": "#40a02b",
+                "text-color": "#40a02b"
             }
         },
         "Lua": {
