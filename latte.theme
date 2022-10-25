@@ -115,23 +115,6 @@
                 "text-color": "#4c4f69"
             }
         },
-        "Go": {
-            "Builtin Function": {
-                "selected-text-color": "#dd7878",
-                "text-color": "#dd7878"
-            },
-            "Data Type": {
-                "selected-text-color": "#1e66f5",
-                "text-color": "#1e66f5"
-            },
-            "Keyword": {
-                "selected-text-color": "#ea76cb",
-                "text-color": "#ea76cb"
-            },
-            "Predeclared Identifier": {
-                "bold": true
-            }
-        },
         "ISO C++": {
             "Data Type": {
                 "selected-text-color": "#1e66f5",
@@ -383,9 +366,9 @@
         "MarkExecution": "#7c7f93",
         "MarkWarning": "#fe640b",
         "ModifiedLines": "#fe640b",
-        "ReplaceHighlight": "#66a6e3a1",
+        "ReplaceHighlight": "#40a02b",
         "SavedLines": "#40a02b",
-        "SearchHighlight": "#6689b4fa",
+        "SearchHighlight": "#1e66f5",
         "Separator": "#dce0e8",
         "SpellChecking": "#e64553",
         "TabMarker": "#bcc0cc",
