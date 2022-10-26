@@ -195,12 +195,68 @@
                 "selected-text-color": "#a6d189",
                 "text-color": "#a6d189"
             },
-            "Reserved": {
-                "italic": false
-            },
             "Template": {
                 "selected-text-color": "#a6d189",
                 "text-color": "#a6d189"
+            }
+        },
+        "LaTeX": {
+            "Ampersand": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Builtin Macro": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Column Separator": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Environment": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Macro": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Math": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Option Text": {
+                "selected-text-color": "#ef9f76",
+                "text-color": "#ef9f76"
+            },
+            "Reference": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Region Marker": {
+                "italic": true,
+                "selected-text-color": "#838ba7",
+                "text-color": "#838ba7"
+            },
+            "Sectioning Macro": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Sectioning Math": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Structure": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Verbatim": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            },
+            "Verbatim Code": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
             }
         },
         "Lua": {
@@ -306,10 +362,6 @@
             "Kernel methods": {
                 "selected-text-color": "#f4b8e4",
                 "text-color": "#f4b8e4"
-            },
-            "Keyword": {
-                "selected-text-color": "#e78284",
-                "text-color": "#e78284"
             },
             "Message": {
                 "selected-text-color": "#c6d0f5",
