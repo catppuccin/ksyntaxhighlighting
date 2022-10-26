@@ -44,9 +44,74 @@
             }
         },
         "CMake": {
+            "Aliased Targets": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
             "Builtin Variable": {
+                "selected-text-color": "#f2d5cf",
+                "text-color": "#f2d5cf"
+            },
+            "Command": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            },
+            "Environment Variable Substitution": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "False Special Arg": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Generator Expression": {
+                "selected-text-color": "#e5c890",
+                "text-color": "#e5c890"
+            },
+            "Generator Expression Keyword": {
                 "selected-text-color": "#ef9f76",
                 "text-color": "#ef9f76"
+            },
+            "Internal Name": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Named Args": {
+                "bold": true,
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Property": {
+                "bold": true,
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Region Marker": {
+                "italic": true,
+                "selected-text-color": "#838ba7",
+                "text-color": "#838ba7"
+            },
+            "Special Args": {
+                "bold": true,
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "True Special Arg": {
+                "bold": true,
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "User Function/Macro": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Variable Substitution": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            },
+            "Version Arg": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
             }
         },
         "CSS": {
