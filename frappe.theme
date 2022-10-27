@@ -1,5 +1,15 @@
 {
     "custom-styles": {
+        ".desktop": {
+            "Key": {
+                "selected-text-color": "#8caaee",
+                "text-color": "#8caaee"
+            },
+            "Section": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            }
+        },
         "Alerts": {
             "Alert Level 1": {
                 "background-color": "#e78284",
@@ -39,6 +49,24 @@
                 "text-color": "#f4b8e4"
             },
             "Path": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            }
+        },
+        "BibTeX": {
+            "Command": {
+                "selected-text-color": "#eebebe",
+                "text-color": "#eebebe"
+            },
+            "Entry": {
+                "selected-text-color": "#eebebe",
+                "text-color": "#eebebe"
+            },
+            "Field": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            },
+            "Ref Key": {
                 "selected-text-color": "#f4b8e4",
                 "text-color": "#f4b8e4"
             }
@@ -255,6 +283,12 @@
                 "text-color": "#c6d0f5"
             }
         },
+        "Gitolite": {
+            "Keyword": {
+                "selected-text-color": "#f4b8e4",
+                "text-color": "#f4b8e4"
+            }
+        },
         "Go": {
             "Builtin Function": {
                 "selected-text-color": "#eebebe",
@@ -338,6 +372,19 @@
             "Template": {
                 "selected-text-color": "#a6d189",
                 "text-color": "#a6d189"
+            }
+        },
+        "Kconfig": {
+            "Help Text": {
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
+            },
+            "Property": {
+                "selected-text-color": "#eebebe",
+                "text-color": "#eebebe"
+            },
+            "Source": {
+                "text-color": "#f50000"
             }
         },
         "LaTeX": {
@@ -550,6 +597,12 @@
                 "text-color": "#8caaee"
             }
         },
+        "SQL": {
+            "Operator Keyword": {
+                "selected-text-color": "#ca9ee6",
+                "text-color": "#ca9ee6"
+            }
+        },
         "YAML": {
             "Alert": {
                 "background-color": "#e78284",
@@ -640,8 +693,8 @@
             "text-color": "#e78284"
         },
         "DataType": {
-            "selected-text-color": "#f2d5cf",
-            "text-color": "#f2d5cf"
+            "selected-text-color": "#8caaee",
+            "text-color": "#8caaee"
         },
         "DecVal": {
             "selected-text-color": "#ef9f76",
@@ -679,8 +732,8 @@
         },
         "Keyword": {
             "bold": true,
-            "selected-text-color": "#f2d5cf",
-            "text-color": "#f2d5cf"
+            "selected-text-color": "#f4b8e4",
+            "text-color": "#f4b8e4"
         },
         "Normal": {
             "selected-text-color": "#c6d0f5",
