@@ -153,6 +153,26 @@
                 "selected-text-color": "#ea76cb",
                 "text-color": "#ea76cb"
             },
+            "At Rule": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
+            },
+            "Color": {
+                "selected-text-color": "#fe640b",
+                "text-color": "#fe640b"
+            },
+            "Keyword": {
+                "selected-text-color": "#8839ef",
+                "text-color": "#8839ef"
+            },
+            "Operator": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
+            },
+            "Property": {
+                "selected-text-color": "#df8e1d",
+                "text-color": "#df8e1d"
+            },
             "Selector Attribute": {
                 "selected-text-color": "#40a02b",
                 "text-color": "#40a02b"
@@ -161,7 +181,24 @@
                 "selected-text-color": "#fe640b",
                 "text-color": "#fe640b"
             },
+            "Selector Pseudo": {
+                "italic": false,
+                "selected-text-color": "#1e66f5",
+                "text-color": "#1e66f5"
+            },
+            "Selector Tag": {
+                "selected-text-color": "#8839ef",
+                "text-color": "#8839ef"
+            },
             "Separator Symbol": {
+                "selected-text-color": "#ea76cb",
+                "text-color": "#ea76cb"
+            },
+            "Unit": {
+                "selected-text-color": "#fe640b",
+                "text-color": "#fe640b"
+            },
+            "Value": {
                 "selected-text-color": "#ea76cb",
                 "text-color": "#ea76cb"
             }
