@@ -344,13 +344,19 @@
             }
         },
         "ISO C++": {
-            "Data Type": {
-                "selected-text-color": "#8caaee",
-                "text-color": "#8caaee"
+            "Attribute": {
+                "italic": false,
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
             },
             "Keyword": {
-                "selected-text-color": "#e5c890",
-                "text-color": "#e5c890"
+                "selected-text-color": "#99d1db",
+                "text-color": "#99d1db"
+            },
+            "Standard Attribute": {
+                "italic": false,
+                "selected-text-color": "#c6d0f5",
+                "text-color": "#c6d0f5"
             },
             "Type Modifiers": {
                 "selected-text-color": "#e5c890",
@@ -768,7 +774,6 @@
             "text-color": "#ef9f76"
         },
         "Keyword": {
-            "bold": true,
             "selected-text-color": "#f4b8e4",
             "text-color": "#f4b8e4"
         },
