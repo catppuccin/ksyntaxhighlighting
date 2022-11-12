@@ -16,8 +16,7 @@
 </p>
 
 
-# Notes for development:
-- Some languages have their own syntax for certain types of words. For example: Alerts in C based languages. These need to be configured and can be done so from within the text editor.
+
 ## Usage
 
 1. Clone this repository locally
