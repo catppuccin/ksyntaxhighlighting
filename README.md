@@ -24,19 +24,19 @@ KSyntaxHighlighting is a syntax highlighting library provided by KDE Frameworks 
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Latte.webp"/>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/assets/Latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Frappe.webp"/>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/assets/Frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Macchiato.webp"/>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/assets/Macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Mocha.webp"/>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/assets/Mocha.webp"/>
 </details>
 
 
