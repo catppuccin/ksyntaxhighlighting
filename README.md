@@ -12,31 +12,52 @@
 </p>
 
 <p align="center">
-	<img src="https://github.com/Sourcastic/KSyntaxHighlighting/blob/main/assets/ss.webp"/>
+	<img src="https://github.com/Sourcastic/KSyntaxHighlighting/blob/main/assets/res.webp"/>
 </p>
 
+  
+KSyntaxHighlighting is a syntax highlighting library provided by KDE Frameworks used within KDE Applications such as Kate, Kwrite, Kile etc. and can also be freely used by third party appplications. As such, this theme only covers syntax highllighting and not the application theme.
+   
 
 
-## Usage
+## Previews
 
-1. Clone this repository locally
-2. Open the text editor/IDE using KSyntaxHighlighting (Usually Kate or Kwrite)
-3. Go to Settings ---> Configure editor ---> Color Themes
-4. Select `Import Theme` and choose the flavour of your choice.
-5. Set the theme as default colours.
+<details>
+<summary>🌻 Latte</summary>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="https://github.com/sourcastic/ctp-KSyntaxHighlighting/blob/main/Assets/Mocha.webp"/>
+</details>
 
 
+## Installation (For Kate and Kwrite)
+
+1. Clone this repository locally.
+2. Open the text editor.
+3. Go to Settings ---> Configure editor ---> Color Themes ---> Theme Editor
+4. Select `Import` and choose the .theme files from where you cloned the repository.
+5. Set the theme as the default colours.  
 
 ## 🙋 FAQ
 
-1. A language I use has colours that don't fit in.
-   A: These colours can be configured. Feel free to make an issue or fix the colors and contribute upstream.
-2. Where do I find documentation for KSyntaxHighlighting?
-   A: Documenation available [here](https://docs.kde.org/trunk5/en/kate/katepart/color-themes.html#color-themes-gui)
+1. A colour is unreadable or does not fit in properly.    
+A: Feel free to make an issue or fix the colors and contribute upstream.
+2. Where do I find documentation for KSyntaxHighlighting?   
+A: Documenation available [here](https://docs.kde.org/trunk5/en/kate/katepart/color-themes.html#color-themes-gui)
    
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Sourcastic](https://github.com/Sourcastic)
 
 &nbsp;
 
