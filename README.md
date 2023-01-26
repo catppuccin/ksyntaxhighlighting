@@ -12,7 +12,8 @@
 </p>
 
 <p align="center">
-	<img src="https://github.com/Sourcastic/KSyntaxHighlighting/blob/main/assets/res.webp"/>
+	<img 
+src="https://github.com/Sourcastic/ctp-KSyntaxHighlighting/blob/main/assets/res.webp"/>
 </p>
 
   
