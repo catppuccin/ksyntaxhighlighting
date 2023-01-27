@@ -418,6 +418,11 @@
                 "selected-text-color": "#c6d0f5",
                 "text-color": "#c6d0f5"
             },
+            "Keyword": {
+                "italic": true,
+                "selected-text-color": "#ef9f76",
+                "text-color": "#ef9f76"
+            },
             "Prep. Lib": {
                 "selected-text-color": "#c6d0f5",
                 "text-color": "#c6d0f5"
@@ -425,6 +430,10 @@
             "Preprocessor": {
                 "selected-text-color": "#ca9ee6",
                 "text-color": "#ca9ee6"
+            },
+            "Raw String": {
+                "selected-text-color": "#a6d189",
+                "text-color": "#a6d189"
             },
             "Standard Classes": {
                 "selected-text-color": "#c6d0f5",
