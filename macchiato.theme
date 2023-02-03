@@ -1085,12 +1085,12 @@
             "text-color": "#b7bdf8"
         },
         "BaseN": {
-            "selected-text-color": "#a6da95",
-            "text-color": "#a6da95"
+            "selected-text-color": "#ed8796",
+            "text-color": "#ed8796"
         },
         "BuiltIn": {
-            "selected-text-color": "#8aadf4",
-            "text-color": "#8aadf4"
+            "selected-text-color": "#ed8796",
+            "text-color": "#ed8796"
         },
         "Char": {
             "selected-text-color": "#f5bde6",
