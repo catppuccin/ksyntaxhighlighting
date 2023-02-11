@@ -54,7 +54,7 @@ KSyntaxHighlighting is a syntax highlighting library provided by KDE Frameworks 
 1. A colour is unreadable or does not fit in properly.    
 A: Feel free to make an issue or fix the colors and contribute upstream.
 2. Where do I find documentation for KSyntaxHighlighting?   
-A: Documenation available [here](https://docs.kde.org/trunk5/en/kate/katepart/color-themes.html#color-themes-gui)
+A: Documentation available [here](https://docs.kde.org/trunk5/en/kate/katepart/color-themes.html#color-themes-gui)
    
 ## 💝 Thanks to
 
