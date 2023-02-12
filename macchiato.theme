@@ -1066,6 +1066,9 @@
         "WordWrapMarker": "#5b6078"
     },
     "metadata": {
+        "copyright": [
+            "SPDX-FileCopyrightText: 2021 Catppuccin Org",
+        ],
         "license": "SPDX-License-Identifier: MIT",
         "name": "Catppuccin Macchiato",
         "revision": 1
