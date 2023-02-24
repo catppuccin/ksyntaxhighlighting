@@ -1,19 +1,19 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://invent.kde.org/frameworks/syntax-highlighting#introduction">KSyntaxHighlighting</a>
+	Catppuccin for <a href="https://invent.kde.org/frameworks/syntax-highlighting#introduction">ksyntaxhighlighting</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/KSyntaxHighlighting/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/KSyntaxHighlighting?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/KSyntaxHighlighting/issues"><img src="https://img.shields.io/github/issues/catppuccin/KSyntaxHighlighting?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/KSyntaxHighlighting/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/KSyntaxHighlighting?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/ksyntaxhighlighting/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/ksyntaxhighlighting?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/ksyntaxhighlighting/issues"><img src="https://img.shields.io/github/issues/catppuccin/ksyntaxhighlighting?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/ksyntaxhighlighting/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/ksyntaxhighlighting?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
 	<img 
-src="https://github.com/catppuccin/KSyntaxHighlighting/blob/main/assets/res.webp"/>
+src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/res.webp"/>
 </p>
 
   
@@ -25,29 +25,29 @@ KSyntaxHighlighting is a syntax highlighting library provided by KDE Frameworks 
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://github.com/catppuccin/KSyntaxHighlighting/blob/main/assets/Latte.webp"/>
+<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://github.com/catppuccin/KSyntaxHighlighting/blob/main/assets/Frappe.webp"/>
+<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://github.com/catppuccin/KSyntaxHighlighting/blob/main/assets/Macchiato.webp"/>
+<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://github.com/catppuccin/KSyntaxHighlighting/blob/main/assets/Mocha.webp"/>
+<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/mocha.webp"/>
 </details>
 
 
-## Installation (For Kate and Kwrite)
+## Installation
 
 1. Clone this repository locally.
 2. Open the text editor.
 3. Go to Settings ---> Configure editor ---> Color Themes ---> Theme Editor
 4. Select `Import` and choose the .theme files from where you cloned the repository.
-5. Set the theme as the default colours.  
+5. Go to the `Default Theme` tab and set the theme as default.  
 
 ## 🙋 FAQ
 
