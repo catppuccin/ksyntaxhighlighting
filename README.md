@@ -40,8 +40,11 @@ KSyntaxHighlighting is a syntax highlighting library provided by KDE Frameworks 
 <img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/mocha.webp"/>
 </details>
 
-
 ## Installation
+
+As of KDE Frameworks 5.106, the catppuccin KSyntax themes are included by default. In order to use it, simply select it from the app's settings.
+
+### Manual Installation
 
 1. Clone this repository locally.
 2. Open the text editor.
