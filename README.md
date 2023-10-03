@@ -13,7 +13,7 @@
 
 <p align="center">
 	<img 
-src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/res.webp"/>
+src="https://raw.githubusercontent.com/catppuccin/ksyntaxhighlighting/main/assets/preview.webp"/>
 </p>
 
   
