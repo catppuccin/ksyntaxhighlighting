@@ -13,7 +13,7 @@
 
 <p align="center">
 	<img 
-src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/res.webp"/>
+src="https://raw.githubusercontent.com/catppuccin/ksyntaxhighlighting/main/assets/preview.webp"/>
 </p>
 
   
@@ -25,19 +25,19 @@ KSyntaxHighlighting is a syntax highlighting library provided by KDE Frameworks 
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/latte.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/ksyntaxhighlighting/main/assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/ksyntaxhighlighting/main/assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/ksyntaxhighlighting/main/assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://github.com/catppuccin/ksyntaxhighlighting/blob/main/assets/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/catppuccin/ksyntaxhighlighting/main/assets/mocha.webp"/>
 </details>
 
 ## Installation
@@ -49,7 +49,7 @@ As of KDE Frameworks 5.106, the catppuccin KSyntax themes are included by defaul
 1. Clone this repository locally.
 2. Open the text editor.
 3. Go to Settings ---> Configure editor ---> Color Themes ---> Theme Editor
-4. Select `Import` and choose the .theme files from where you cloned the repository.
+4. Select `Import` and choose the `themes/*.themes` files from where you cloned the repository.
 5. Go to the `Default Theme` tab and set the theme as default.  
 
 ## 🙋 FAQ
@@ -62,6 +62,7 @@ A: Documentation available [here](https://docs.kde.org/trunk5/en/kate/katepart/c
 ## 💝 Thanks to
 
 - [Sourcastic](https://github.com/Sourcastic)
+- [justTOBBI](https://github.com/justTOBBI)
 
 &nbsp;
 
