@@ -57,7 +57,7 @@ As of KDE Frameworks 5.106, the catppuccin KSyntax themes are included by defaul
 1. A colour is unreadable or does not fit in properly.    
 A: Feel free to make an issue or fix the colors and contribute upstream.
 2. Where do I find documentation for KSyntaxHighlighting?   
-A: Documentation available [here](https://docs.kde.org/trunk5/en/kate/katepart/color-themes.html#color-themes-gui)
+A: Documentation available [here](https://docs.kde.org/stable5/en/kate/katepart/color-themes.html)
    
 ## 💝 Thanks to
 
