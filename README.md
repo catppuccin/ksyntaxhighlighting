@@ -49,7 +49,7 @@ As of KDE Frameworks 5.106, the catppuccin KSyntax themes are included by defaul
 1. Clone this repository locally.
 2. Open the text editor.
 3. Go to Settings ---> Configure editor ---> Color Themes ---> Theme Editor
-4. Select `Import` and choose the `themes/*.themes` files from where you cloned the repository.
+4. Select `Import` and choose the `themes/*.theme` files from where you cloned the repository.
 5. Go to the `Default Theme` tab and set the theme as default.  
 
 ## 🙋 FAQ
@@ -59,10 +59,9 @@ A: Feel free to make an issue or fix the colors and contribute upstream.
 2. Where do I find documentation for KSyntaxHighlighting?   
 A: Documentation available [here](https://docs.kde.org/stable5/en/kate/katepart/color-themes.html)
    
-## 💝 Thanks to
+## 💝 Current Maintainer
 
 - [Sourcastic](https://github.com/Sourcastic)
-- [justTOBBI](https://github.com/justTOBBI)
 
 &nbsp;
 
