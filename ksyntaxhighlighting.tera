@@ -1,0 +1,1180 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.identifier }}.theme"
+---
+{
+    "custom-styles": {
+        "Alerts": {
+            "Alert Level 1": {
+                "background-color": "#{{ red.hex }}",
+                "selected-text-color": "#{{ crust.hex }}",
+                "text-color": "#{{ crust.hex }}"
+            },
+            "Alert Level 2": {
+                "background-color": "#{{ yellow.hex }}",
+                "selected-text-color": "#{{ crust.hex }}",
+                "text-color": "#{{ crust.hex }}"
+            },
+            "Alert Level 3": {
+                "background-color": "#{{ green.hex }}",
+                "selected-text-color": "#{{ crust.hex }}",
+                "text-color": "#{{ crust.hex }}"
+            }
+        },
+        "Bash": {
+            "Backquote": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Builtin": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Command": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Control": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Dollar Prefix": {
+                "italic": true,
+                "selected-text-color": "#{{ maroon.hex }}",
+                "text-color": "#{{ maroon.hex }}"
+            },
+            "Escape": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Expression": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Glob": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Option": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Parameter Expansion": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "String Escape": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Variable": {
+                "italic": true,
+                "selected-text-color": "#{{ maroon.hex }}",
+                "text-color": "#{{ maroon.hex }}"
+            }
+        },
+        "BibTeX": {
+            "Command": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Entry": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Field": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Ref Key": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            }
+        },
+        "C": {
+            "Attribute": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Prep. Lib": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Preprocessor": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Standard Attribute": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Standard Suffix": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "C++": {
+            "Qt Classes": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Qt Functions": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Qt Types": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "CMake": {
+            "Aliased Targets": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Builtin Variable": {
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Command": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Environment Variable Substitution": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "False Special Arg": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Generator Expression": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Generator Expression Keyword": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Internal Name": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Named Args": {
+                "bold": true,
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Property": {
+                "bold": true,
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Region Marker": {
+                "selected-text-color": "#{{ overlay1.hex }}",
+                "text-color": "#{{ overlay1.hex }}"
+            },
+            "Special Args": {
+                "bold": true,
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "True Special Arg": {
+                "bold": true,
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "User Function/Macro": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Variable Substitution": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Version Arg": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "CSS": {
+            "At Rule": {
+                "italic": true,
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Color": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Function": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "Operator": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Property": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Selector Attribute": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Selector Class": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "Selector Id": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Selector Pseudo": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "Selector Tag": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Separator Symbol": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Unit": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Value": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            }
+        },
+        "Diff": {
+            "Added line": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Changed line (new)": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Changed line (old)": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Removed line": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            }
+        },
+        "Doxygen": {
+            "Custom Tags": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Dot Graph": {
+                "text-color": "#{{ green.hex }}"
+            },
+            "Entities": {
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Formulas": {
+                "text-color": "#{{ green.hex }}"
+            },
+            "Message Sequence Chart": {
+                "text-color": "#{{ green.hex }}"
+            },
+            "Tags": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            }
+        },
+        "Fish": {
+            "Builtin": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Escape": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Option": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Redirection": {
+                "selected-text-color": "#{{ sky.hex }}",
+                "text-color": "#{{ sky.hex }}"
+            },
+            "Separator": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "Variable": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "GCCExtensions": {
+            "GNU Extensions": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "GNU Functions": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "GNU Macros": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "Go": {
+            "Builtin Function": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Data Type": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Keyword": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Predeclared Identifier": {
+                "bold": true
+            }
+        },
+        "Godot": {
+            "Definition Keyword": {
+                "italic": true,
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Function Call": {
+                "italic": true
+            },
+            "Special Variable": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "UnusedVariable": {
+                "italic": false,
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "HTML": {
+            "Attribute": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Element": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Element Symbols": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "Other Text": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            }
+        },
+        "ISO C++": {
+            "Boost Stuff": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Keyword": {
+                "italic": true,
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Prep. Lib": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Preprocessor": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Raw String": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Standard Classes": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Standard Macros": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Standard Suffix": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Type Modifiers": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            }
+        },
+        "JSON": {
+            "Style_Seperator_Array": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Style_Seperator_Pair": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Style_String_Key": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            }
+        },
+        "Java": {
+            "Function": {
+                "italic": true,
+                "selected-text-color": "#{{ surface2.hex }}",
+                "text-color": "#{{ surface2.hex }}"
+            },
+            "Java15": {
+                "italic": true,
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            }
+        },
+        "JavaScript": {
+            "Built-in Objects": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Constant": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Function Declaration": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Function Name": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "JSON": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Object Member": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Object Method (Built-in)": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Pattern Character Class": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Pattern Internal Operator": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Regular Expression": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Reserved": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Template": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "Javadoc": {
+            "BlockTag": {
+                "italic": true,
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            }
+        },
+        "Kconfig": {
+            "Help Text": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Property": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Source": {
+                "text-color": "#f50000"
+            }
+        },
+        "Kotlin": {
+            "Function": {
+                "italic": true
+            },
+            "Keyword": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "String Interpolation": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            }
+        },
+        "LaTeX": {
+            "Ampersand": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Builtin Macro": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Column Separator": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Environment": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Macro": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Math": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Option Text": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Reference": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Region Marker": {
+                "italic": true,
+                "selected-text-color": "#{{ overlay1.hex }}",
+                "text-color": "#{{ overlay1.hex }}"
+            },
+            "Sectioning Macro": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Sectioning Math": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Structure": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Verbatim": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Verbatim Code": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            }
+        },
+        "Lua": {
+            "Constant": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Keyword": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Special Variable": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            }
+        },
+        "Makefile": {
+            "Silent": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            }
+        },
+        "Markdown": {
+            "Auto-Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}",
+                "underline": true
+            },
+            "Blockquote": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Blockquote: Emphasis Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Blockquote: Link": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Blockquote: Normal Text": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Blockquote: Strikethrough Text": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Blockquote: Strong Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Blockquote: Strong-Emphasis Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Code": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Email": {
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Emphasis Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Fenced Code": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Inline Image": {
+                "selected-text-color": "#{{ lavender.hex }}",
+                "text-color": "#{{ lavender.hex }}"
+            },
+            "Inline Image: Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Line Break": {
+                "text-color": "#{{ text.hex }}"
+            },
+            "Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "List": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "List: Checkbox": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "List: Emphasis Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "List: Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "List: Normal Text": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "List: Strong Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "List: Strong-Emphasis Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Mailto-Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}",
+                "underline": true
+            },
+            "Metadata": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Metadata Title": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Normal Text: Link": {
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Number List": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            },
+            "Reference Image": {
+                "bold": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}",
+                "underline": true
+            },
+            "Reference-Link": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Reference-Link ID": {
+                "italic": true,
+                "selected-text-color": "#{{ lavender.hex }}",
+                "text-color": "#{{ lavender.hex }}"
+            },
+            "Reference-Link Name": {
+                "italic": true,
+                "selected-text-color": "#{{ lavender.hex }}",
+                "text-color": "#{{ lavender.hex }}"
+            },
+            "Reference-Link Target": {
+                "selected-text-color": "#{{ lavender.hex }}",
+                "text-color": "#{{ lavender.hex }}"
+            },
+            "Reference-Link Target: Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Reference-Link: Email": {
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Reference-Link: Link": {
+                "italic": true,
+                "selected-text-color": "#{{ rosewater.hex }}",
+                "text-color": "#{{ rosewater.hex }}"
+            },
+            "Strong Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            },
+            "Strong-Emphasis Text": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            }
+        },
+        "Python": {
+            "Builtin Function": {
+                "italic": true,
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "F-String": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Import": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Raw B-String": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Raw F-String": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Raw String": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            }
+        },
+        "Ruby": {
+            "Constant": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Default globals": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Global Constant": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Global Variable": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Here Document": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Instance Variable": {
+                "selected-text-color": "#{{ flamingo.hex }}",
+                "text-color": "#{{ flamingo.hex }}"
+            },
+            "Kernel methods": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            },
+            "Message": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Raw String": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Regular Expression": {
+                "selected-text-color": "#{{ pink.hex }}",
+                "text-color": "#{{ pink.hex }}"
+            }
+        },
+        "Rust": {
+            "Attribute": {
+                "italic": true
+            },
+            "CharEscape": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Definition": {
+                "italic": true,
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Macro": {
+                "selected-text-color": "#{{ sky.hex }}",
+                "text-color": "#{{ sky.hex }}"
+            },
+            "Scope": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Self": {
+                "selected-text-color": "#{{ peach.hex }}",
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Trait": {
+                "italic": true,
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            }
+        },
+        "SQL": {
+            "Operator Keyword": {
+                "selected-text-color": "#{{ mauve.hex }}",
+                "text-color": "#{{ mauve.hex }}"
+            }
+        },
+        "TOML": {
+            "Key": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "LitString": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            }
+        },
+        "XML": {
+            "Attribute": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Doctype": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Doctype Name": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Doctype Symbols": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "Element": {
+                "selected-text-color": "#{{ blue.hex }}",
+                "text-color": "#{{ blue.hex }}"
+            },
+            "PI Symbols": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            },
+            "Processing Instruction": {
+                "selected-text-color": "#{{ yellow.hex }}",
+                "text-color": "#{{ yellow.hex }}"
+            }
+        },
+        "YAML": {
+            "Alert": {
+                "background-color": "#{{ red.hex }}",
+                "selected-text-color": "#{{ crust.hex }}",
+                "text-color": "#{{ crust.hex }}"
+            },
+            "Alias": {
+                "selected-text-color": "#{{ surface2.hex }}",
+                "text-color": "#{{ surface2.hex }}"
+            },
+            "Attribute": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Boolean": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Data Types": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Document Header": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "Escaped Character": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Float": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Integer": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Key Points Operator": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            },
+            "List": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Literal/Folded Block": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Literal/Folded Operator": {
+                "selected-text-color": "#{{ green.hex }}",
+                "text-color": "#{{ green.hex }}"
+            },
+            "Normal Text": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Null": {
+                "selected-text-color": "#{{ text.hex }}",
+                "text-color": "#{{ text.hex }}"
+            },
+            "Operator": {
+                "selected-text-color": "#{{ teal.hex }}",
+                "text-color": "#{{ teal.hex }}"
+            }
+        },
+        "sed": {
+            "Last Line": {
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Negation": {
+                "text-color": "#{{ peach.hex }}"
+            },
+            "Separator": {
+                "selected-text-color": "#{{ red.hex }}",
+                "text-color": "#{{ red.hex }}"
+            }
+        }
+    },
+    "editor-colors": {
+        "BackgroundColor": "#{{ base.hex }}",
+        "BracketMatching": "#{{ teal.hex }}",
+        "CodeFolding": "#{{ sapphire.hex }}",
+        "CurrentLine": "#{{ surface0.hex }}",
+        "CurrentLineNumber": "#{{ text.hex }}",
+        "IconBorder": "#{{ base.hex }}",
+        "IndentationLine": "#{{ surface0.hex }}",
+        "LineNumbers": "#{{ subtext0.hex }}",
+        "MarkBookmark": "#{{ mauve.hex }}",
+        "MarkBreakpointActive": "#{{ pink.hex }}",
+        "MarkBreakpointDisabled": "#{{ overlay0.hex }}",
+        "MarkBreakpointReached": "#{{ green.hex }}",
+        "MarkError": "#{{ red.hex }}",
+        "MarkExecution": "#{{ overlay2.hex }}",
+        "MarkWarning": "#{{ peach.hex }}",
+        "ModifiedLines": "#{{ peach.hex }}",
+        "ReplaceHighlight": "#{{ blue | mod(opacity=0.5) | get(key="hex") }}",
+        "SavedLines": "#{{ green.hex }}",
+        "SearchHighlight": "#{{ blue | mod(opacity=0.9) | get(key="hex") }}",
+        "Separator": "#{{ crust.hex }}",
+        "SpellChecking": "#{{ maroon.hex }}",
+        "TabMarker": "#{{ surface0.hex }}",
+        "TemplateBackground": "#{{ surface2.hex }}",
+        "TemplateFocusedPlaceholder": "#{{ teal.hex }}",
+        "TemplatePlaceholder": "#{{ sapphire.hex }}",
+        "TemplateReadOnlyPlaceholder": "#{{ maroon.hex }}",
+        "TextSelection": "#{{ red | mod(opacity=0.5) | get(key="hex") }}",
+        "WordWrapMarker": "#{{ surface2.hex }}"
+    },
+    "metadata": {
+        "copyright": [
+            "SPDX-FileCopyrightText: 2021 Catppuccin Org"
+        ],
+        "license": "SPDX-License-Identifier: MIT",
+        "name": "Catppuccin {{ flavor.name }}",
+        "revision": 3
+    },
+    "text-styles": {
+        "Alert": {
+            "bold": true,
+            "selected-text-color": "#{{ red.hex }}",
+            "text-color": "#{{ red.hex }}"
+        },
+        "Annotation": {
+            "selected-text-color": "#{{ yellow.hex }}",
+            "text-color": "#{{ yellow.hex }}"
+        },
+        "Attribute": {
+            "selected-text-color": "#{{ lavender.hex }}",
+            "text-color": "#{{ lavender.hex }}"
+        },
+        "BaseN": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        },
+        "BuiltIn": {
+            "selected-text-color": "#{{ red.hex }}",
+            "text-color": "#{{ red.hex }}"
+        },
+        "Char": {
+            "selected-text-color": "#{{ pink.hex }}",
+            "text-color": "#{{ pink.hex }}"
+        },
+        "Comment": {
+            "italic": true,
+            "selected-text-color": "#{{ overlay0.hex }}",
+            "text-color": "#{{ overlay0.hex }}"
+        },
+        "CommentVar": {
+            "italic": true,
+            "selected-text-color": "#{{ overlay0.hex }}",
+            "text-color": "#{{ overlay0.hex }}"
+        },
+        "Constant": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        },
+        "ControlFlow": {
+            "selected-text-color": "#{{ mauve.hex }}",
+            "text-color": "#{{ mauve.hex }}"
+        },
+        "DataType": {
+            "selected-text-color": "#{{ mauve.hex }}",
+            "text-color": "#{{ mauve.hex }}"
+        },
+        "DecVal": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        },
+        "Documentation": {
+            "selected-text-color": "#{{ red.hex }}",
+            "text-color": "#{{ red.hex }}"
+        },
+        "Error": {
+            "selected-text-color": "#{{ red.hex }}",
+            "text-color": "#{{ red.hex }}",
+            "underline": true
+        },
+        "Extension": {
+            "selected-text-color": "#{{ blue.hex }}",
+            "text-color": "#{{ blue.hex }}"
+        },
+        "Float": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        },
+        "Function": {
+            "selected-text-color": "#{{ blue.hex }}",
+            "text-color": "#{{ blue.hex }}"
+        },
+        "Import": {
+            "selected-text-color": "#{{ green.hex }}",
+            "text-color": "#{{ green.hex }}"
+        },
+        "Information": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        },
+        "Keyword": {
+            "selected-text-color": "#{{ mauve.hex }}",
+            "text-color": "#{{ mauve.hex }}"
+        },
+        "Normal": {
+            "selected-text-color": "#{{ text.hex }}",
+            "text-color": "#{{ text.hex }}"
+        },
+        "Operator": {
+            "selected-text-color": "#{{ sky.hex }}",
+            "text-color": "#{{ sky.hex }}"
+        },
+        "Others": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        },
+        "Preprocessor": {
+            "selected-text-color": "#{{ pink.hex }}",
+            "text-color": "#{{ pink.hex }}"
+        },
+        "RegionMarker": {
+            "italic": true,
+            "selected-text-color": "#{{ overlay0.hex }}",
+            "text-color": "#{{ overlay0.hex }}"
+        },
+        "SpecialChar": {
+            "selected-text-color": "#{{ pink.hex }}",
+            "text-color": "#{{ pink.hex }}"
+        },
+        "SpecialString": {
+            "selected-text-color": "#{{ red.hex }}",
+            "text-color": "#{{ red.hex }}"
+        },
+        "String": {
+            "selected-text-color": "#{{ green.hex }}",
+            "text-color": "#{{ green.hex }}"
+        },
+        "Variable": {
+            "selected-text-color": "#{{ pink.hex }}",
+            "text-color": "#{{ pink.hex }}"
+        },
+        "VerbatimString": {
+            "selected-text-color": "#{{ red.hex }}",
+            "text-color": "#{{ red.hex }}"
+        },
+        "Warning": {
+            "selected-text-color": "#{{ peach.hex }}",
+            "text-color": "#{{ peach.hex }}"
+        }
+    }
+}
