@@ -661,8 +661,8 @@
                 "text-color": "#8839ef"
             },
             "Inline Image": {
-                "selected-text-color": "#b4befc",
-                "text-color": "#b4befc"
+                "selected-text-color": "#7287fd",
+                "text-color": "#7287fd"
             },
             "Inline Image: Link": {
                 "italic": true,
@@ -740,17 +740,17 @@
             },
             "Reference-Link ID": {
                 "italic": true,
-                "selected-text-color": "#b4befc",
-                "text-color": "#b4befc"
+                "selected-text-color": "#7287fd",
+                "text-color": "#7287fd"
             },
             "Reference-Link Name": {
                 "italic": true,
-                "selected-text-color": "#b4befc",
-                "text-color": "#b4befc"
+                "selected-text-color": "#7287fd",
+                "text-color": "#7287fd"
             },
             "Reference-Link Target": {
-                "selected-text-color": "#b4befc",
-                "text-color": "#b4befc"
+                "selected-text-color": "#7287fd",
+                "text-color": "#7287fd"
             },
             "Reference-Link Target: Link": {
                 "italic": true,
@@ -1003,8 +1003,8 @@
     },
     "editor-colors": {
         "BackgroundColor": "#eff1f5",
-        "BracketMatching": "#32dd7878",
-        "CodeFolding": "#6699d1db",
+        "BracketMatching": "#179299",
+        "CodeFolding": "#209fb5",
         "CurrentLine": "#ccd0da",
         "CurrentLineNumber": "#4c4f69",
         "IconBorder": "#eff1f5",
@@ -1018,9 +1018,9 @@
         "MarkExecution": "#7c7f93",
         "MarkWarning": "#fe640b",
         "ModifiedLines": "#fe640b",
-        "ReplaceHighlight": "#6640a02b",
+        "ReplaceHighlight": "#1e66f580",
         "SavedLines": "#40a02b",
-        "SearchHighlight": "#661e66f5",
+        "SearchHighlight": "#1e66f5e6",
         "Separator": "#dce0e8",
         "SpellChecking": "#e64553",
         "TabMarker": "#ccd0da",
@@ -1028,7 +1028,7 @@
         "TemplateFocusedPlaceholder": "#179299",
         "TemplatePlaceholder": "#209fb5",
         "TemplateReadOnlyPlaceholder": "#e64553",
-        "TextSelection": "#8cbcc0cc",
+        "TextSelection": "#d20f3980",
         "WordWrapMarker": "#acb0be"
     },
     "metadata": {
