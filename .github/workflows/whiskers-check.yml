@@ -7,7 +7,6 @@ on:
   pull_request:
     branches: [main]
 
-
 jobs:
   run:
     uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
