@@ -512,9 +512,6 @@
             "Property": {
                 "selected-text-color": "#f2cdcd",
                 "text-color": "#f2cdcd"
-            },
-            "Source": {
-                "text-color": "#f50000"
             }
         },
         "Kotlin": {
@@ -1003,24 +1000,24 @@
     },
     "editor-colors": {
         "BackgroundColor": "#1e1e2e",
-        "BracketMatching": "#94e2d5",
-        "CodeFolding": "#74c7ec",
+        "BracketMatching": "#6c7086",
+        "CodeFolding": "#3389dceb",
         "CurrentLine": "#313244",
-        "CurrentLineNumber": "#cdd6f4",
+        "CurrentLineNumber": "#b4befe",
         "IconBorder": "#1e1e2e",
         "IndentationLine": "#313244",
-        "LineNumbers": "#a6adc8",
+        "LineNumbers": "#7f849c",
         "MarkBookmark": "#cba6f7",
-        "MarkBreakpointActive": "#f5c2e7",
+        "MarkBreakpointActive": "#f38ba8",
         "MarkBreakpointDisabled": "#6c7086",
-        "MarkBreakpointReached": "#a6e3a1",
+        "MarkBreakpointReached": "#f9e2af",
         "MarkError": "#f38ba8",
         "MarkExecution": "#9399b2",
         "MarkWarning": "#fab387",
         "ModifiedLines": "#fab387",
-        "ReplaceHighlight": "#89b4fa80",
+        "ReplaceHighlight": "#8094e2d5",
         "SavedLines": "#a6e3a1",
-        "SearchHighlight": "#89b4fae6",
+        "SearchHighlight": "#8094e2d5",
         "Separator": "#11111b",
         "SpellChecking": "#eba0ac",
         "TabMarker": "#313244",
@@ -1028,7 +1025,7 @@
         "TemplateFocusedPlaceholder": "#94e2d5",
         "TemplatePlaceholder": "#74c7ec",
         "TemplateReadOnlyPlaceholder": "#eba0ac",
-        "TextSelection": "#f38ba880",
+        "TextSelection": "#409399b2",
         "WordWrapMarker": "#585b70"
     },
     "metadata": {
@@ -1037,7 +1034,7 @@
         ],
         "license": "SPDX-License-Identifier: MIT",
         "name": "Catppuccin Mocha",
-        "revision": 3
+        "revision": 4
     },
     "text-styles": {
         "Alert": {
