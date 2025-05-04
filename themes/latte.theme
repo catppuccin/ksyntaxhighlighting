@@ -512,9 +512,6 @@
             "Property": {
                 "selected-text-color": "#dd7878",
                 "text-color": "#dd7878"
-            },
-            "Source": {
-                "text-color": "#f50000"
             }
         },
         "Kotlin": {
@@ -1003,24 +1000,24 @@
     },
     "editor-colors": {
         "BackgroundColor": "#eff1f5",
-        "BracketMatching": "#179299",
-        "CodeFolding": "#209fb5",
+        "BracketMatching": "#9ca0b0",
+        "CodeFolding": "#3304a5e5",
         "CurrentLine": "#ccd0da",
-        "CurrentLineNumber": "#4c4f69",
+        "CurrentLineNumber": "#7287fd",
         "IconBorder": "#eff1f5",
         "IndentationLine": "#ccd0da",
-        "LineNumbers": "#6c6f85",
+        "LineNumbers": "#8c8fa1",
         "MarkBookmark": "#8839ef",
-        "MarkBreakpointActive": "#ea76cb",
+        "MarkBreakpointActive": "#d20f39",
         "MarkBreakpointDisabled": "#9ca0b0",
-        "MarkBreakpointReached": "#40a02b",
+        "MarkBreakpointReached": "#df8e1d",
         "MarkError": "#d20f39",
         "MarkExecution": "#7c7f93",
         "MarkWarning": "#fe640b",
         "ModifiedLines": "#fe640b",
-        "ReplaceHighlight": "#1e66f580",
+        "ReplaceHighlight": "#80179299",
         "SavedLines": "#40a02b",
-        "SearchHighlight": "#1e66f5e6",
+        "SearchHighlight": "#80179299",
         "Separator": "#dce0e8",
         "SpellChecking": "#e64553",
         "TabMarker": "#ccd0da",
@@ -1028,7 +1025,7 @@
         "TemplateFocusedPlaceholder": "#179299",
         "TemplatePlaceholder": "#209fb5",
         "TemplateReadOnlyPlaceholder": "#e64553",
-        "TextSelection": "#d20f3980",
+        "TextSelection": "#407c7f93",
         "WordWrapMarker": "#acb0be"
     },
     "metadata": {
@@ -1037,7 +1034,7 @@
         ],
         "license": "SPDX-License-Identifier: MIT",
         "name": "Catppuccin Latte",
-        "revision": 3
+        "revision": 4
     },
     "text-styles": {
         "Alert": {

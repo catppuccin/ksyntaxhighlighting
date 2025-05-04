@@ -512,9 +512,6 @@
             "Property": {
                 "selected-text-color": "#eebebe",
                 "text-color": "#eebebe"
-            },
-            "Source": {
-                "text-color": "#f50000"
             }
         },
         "Kotlin": {
@@ -1003,24 +1000,24 @@
     },
     "editor-colors": {
         "BackgroundColor": "#303446",
-        "BracketMatching": "#81c8be",
-        "CodeFolding": "#85c1dc",
+        "BracketMatching": "#737994",
+        "CodeFolding": "#3399d1db",
         "CurrentLine": "#414559",
-        "CurrentLineNumber": "#c6d0f5",
+        "CurrentLineNumber": "#babbf1",
         "IconBorder": "#303446",
         "IndentationLine": "#414559",
-        "LineNumbers": "#a5adce",
+        "LineNumbers": "#838ba7",
         "MarkBookmark": "#ca9ee6",
-        "MarkBreakpointActive": "#f4b8e4",
+        "MarkBreakpointActive": "#e78284",
         "MarkBreakpointDisabled": "#737994",
-        "MarkBreakpointReached": "#a6d189",
+        "MarkBreakpointReached": "#e5c890",
         "MarkError": "#e78284",
         "MarkExecution": "#949cbb",
         "MarkWarning": "#ef9f76",
         "ModifiedLines": "#ef9f76",
-        "ReplaceHighlight": "#8caaee80",
+        "ReplaceHighlight": "#8081c8be",
         "SavedLines": "#a6d189",
-        "SearchHighlight": "#8caaeee6",
+        "SearchHighlight": "#8081c8be",
         "Separator": "#232634",
         "SpellChecking": "#ea999c",
         "TabMarker": "#414559",
@@ -1028,7 +1025,7 @@
         "TemplateFocusedPlaceholder": "#81c8be",
         "TemplatePlaceholder": "#85c1dc",
         "TemplateReadOnlyPlaceholder": "#ea999c",
-        "TextSelection": "#e7828480",
+        "TextSelection": "#40949cbb",
         "WordWrapMarker": "#626880"
     },
     "metadata": {
@@ -1037,7 +1034,7 @@
         ],
         "license": "SPDX-License-Identifier: MIT",
         "name": "Catppuccin Frappé",
-        "revision": 3
+        "revision": 4
     },
     "text-styles": {
         "Alert": {

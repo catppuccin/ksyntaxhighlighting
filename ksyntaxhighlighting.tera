@@ -4,6 +4,7 @@ whiskers:
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.theme"
+  hex_format: "{{z}}{{r}}{{g}}{{b}}"
 ---
 {
     "custom-styles": {
@@ -519,9 +520,6 @@ whiskers:
             "Property": {
                 "selected-text-color": "#{{ flamingo.hex }}",
                 "text-color": "#{{ flamingo.hex }}"
-            },
-            "Source": {
-                "text-color": "#f50000"
             }
         },
         "Kotlin": {
@@ -1010,24 +1008,24 @@ whiskers:
     },
     "editor-colors": {
         "BackgroundColor": "#{{ base.hex }}",
-        "BracketMatching": "#{{ teal.hex }}",
-        "CodeFolding": "#{{ sapphire.hex }}",
+        "BracketMatching": "#{{ overlay0.hex }}",
+        "CodeFolding": "#{{ sky | mod(opacity=0.2) | get(key="hex") }}",
         "CurrentLine": "#{{ surface0.hex }}",
-        "CurrentLineNumber": "#{{ text.hex }}",
+        "CurrentLineNumber": "#{{ lavender.hex }}",
         "IconBorder": "#{{ base.hex }}",
         "IndentationLine": "#{{ surface0.hex }}",
-        "LineNumbers": "#{{ subtext0.hex }}",
+        "LineNumbers": "#{{ overlay1.hex }}",
         "MarkBookmark": "#{{ mauve.hex }}",
-        "MarkBreakpointActive": "#{{ pink.hex }}",
+        "MarkBreakpointActive": "#{{ red.hex }}",
         "MarkBreakpointDisabled": "#{{ overlay0.hex }}",
-        "MarkBreakpointReached": "#{{ green.hex }}",
+        "MarkBreakpointReached": "#{{ yellow.hex }}",
         "MarkError": "#{{ red.hex }}",
         "MarkExecution": "#{{ overlay2.hex }}",
         "MarkWarning": "#{{ peach.hex }}",
         "ModifiedLines": "#{{ peach.hex }}",
-        "ReplaceHighlight": "#{{ blue | mod(opacity=0.5) | get(key="hex") }}",
+        "ReplaceHighlight": "#{{ teal | mod(opacity=0.5) | get(key="hex") }}",
         "SavedLines": "#{{ green.hex }}",
-        "SearchHighlight": "#{{ blue | mod(opacity=0.9) | get(key="hex") }}",
+        "SearchHighlight": "#{{ teal | mod(opacity=0.5) | get(key="hex") }}",
         "Separator": "#{{ crust.hex }}",
         "SpellChecking": "#{{ maroon.hex }}",
         "TabMarker": "#{{ surface0.hex }}",
@@ -1035,7 +1033,7 @@ whiskers:
         "TemplateFocusedPlaceholder": "#{{ teal.hex }}",
         "TemplatePlaceholder": "#{{ sapphire.hex }}",
         "TemplateReadOnlyPlaceholder": "#{{ maroon.hex }}",
-        "TextSelection": "#{{ red | mod(opacity=0.5) | get(key="hex") }}",
+        "TextSelection": "#{{ overlay2 | mod(opacity=0.25) | get(key="hex") }}",
         "WordWrapMarker": "#{{ surface2.hex }}"
     },
     "metadata": {
@@ -1044,7 +1042,7 @@ whiskers:
         ],
         "license": "SPDX-License-Identifier: MIT",
         "name": "Catppuccin {{ flavor.name }}",
-        "revision": 3
+        "revision": 4
     },
     "text-styles": {
         "Alert": {
